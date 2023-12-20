@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Models</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>BMW Models</h2>
+
+    <table>
+        <caption>BMW Models Information</caption>
+        <colgroup>
+            <col span="1" style="width: 30%;">
+            <col span="1" style="width: 15%;">
+            <col span="1" style="width: 25%;">
+            <col span="1" style="width: 30%;">
+        </colgroup>
+        <!-- ^ defines width  of columns within a table-->
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Series</th>
+                <th>Body Style</th>
+                <th>Year Introduced</th>
+            </tr>
+        </thead>
+        <!-- is the first thead makes a title row for the first row of tables -->
+        <tbody>
+        <!-- tbody encapsulates tr elements -->
+            <tr>
+                <td>BMW 3 Series</td>
+                <td>3</td>
+                <td>Sedan</td>
+                <td>1975</td>
+                <!-- td horizontally defines rows -->
+                <!-- so within this tr is the tr is the first row, and the td is the columns for the first row-->
+            </tr>
+            <tr>
+                <td>BMW 5 Series</td>
+                <td>5</td>
+                <td>Sedan</td>
+                <td>1972</td>
+            </tr>
+            <tr>
+                <td>BMW X3</td>
+                <td>X Series</td>
+                <td>SUV</td>
+                <td>2003</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Models: 3</td>
+            </tr>
+        </tfoot>
+        <!-- tfoot in this example is a one column row on the bottom which totals the number of vehicles -->
+    </table>
+
+</body>
+</html>
