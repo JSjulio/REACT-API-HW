@@ -1,3 +1,4 @@
+CompletedProject
 import React from "react"
 
 export default function SelectedContact ({ selectedContact }) { 
@@ -15,5 +16,4 @@ export default function SelectedContact ({ selectedContact }) {
       </>
     )
 }
-
 
